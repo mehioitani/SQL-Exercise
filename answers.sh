@@ -37,3 +37,16 @@ WHERE name = 'Layal'
 Problem 12: UPDATE students
 SET Age=NULL, Gender=NULL, Points=NULL
 WHERE name = 'Layal';
+
+Problem 14: CREATE TABLE NewTable AS
+SELECT employees.name, employees.Company, companies.Date
+FROM employees
+INNER JOIN companies
+ON employees.Company = companies.Name;
+
+Problem 15: SELECT Name FROM
+NewTable
+WHERE Date < '2000'
+
+Problem 16: SELECT Company FROM employees
+WHERE Role = 'Graphic Designer'
