@@ -50,3 +50,16 @@ WHERE Date < '2000'
 
 Problem 16: SELECT Company FROM employees
 WHERE Role = 'Graphic Designer'
+
+Probelm 18: SELECT name,max(Points) FROM students
+
+Problem 19: SELECT avg(Points) FROM students
+
+Problem 20: SELECT count(name) FROM students
+WHERE Points = '500'
+
+Problem 21: SELECT * FROM students
+WHERE name like '%s%'
+
+Problem 22: SELECT name FROM students
+ORDER by Points DESC
