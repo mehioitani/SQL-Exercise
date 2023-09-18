@@ -23,3 +23,17 @@ WHERE Name = "Basma";
 Problem 8: UPDATE students
 SET Points = "100"
 WHERE name = "Alex";
+
+Problem 10: INSERT INTO graduates (Name, Age, Gender, Points)
+SELECT Name, Age, Gender, Points
+FROM students
+WHERE Name = 'Layal'
+
+
+Problem 11: UPDATE graduates
+SET Graduation = '08/09/2018'
+WHERE name = 'Layal'
+
+Problem 12: UPDATE students
+SET Age=NULL, Gender=NULL, Points=NULL
+WHERE name = 'Layal';
